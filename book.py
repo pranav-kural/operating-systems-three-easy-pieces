@@ -89,6 +89,9 @@ def merge_pdf():
     with open("book.pdf", "wb") as fout:
         merger.write(fout)
 
+    # confirmation of download
+    print("Done dona done done")
+
 
 def read_file():
     f = open("./urls3.txt")
